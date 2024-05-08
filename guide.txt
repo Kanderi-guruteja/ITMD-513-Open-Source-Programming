@@ -1,0 +1,56 @@
+Crime Analysis Chart Application - User Guide
+
+This guide provides step-by-step instructions on how to run the Crime Analysis Application, connect to the SQLite database, and navigate through the user flow.
+
+Prerequisites:
+
+1. Python 3.6 or higher should be installed on your system. You can download it from the official Python website: https://www.python.org/downloads/
+
+2. Ensure you have the required libraries installed. To do this, run the following command in your terminal or command prompt:
+
+   pip install -r requirements.txt
+
+Connecting to SQLite Database:
+
+1.Navigate to the project folder and open SQLiteStudio.exe to install the SQLite Studio for User Aunthetication.
+
+2.After the installation is complete, click on "File" > "Import" > "Database from File."
+
+3. Browse the project folder and select the provided SQLite database file (registered_users_db) and click "Open."
+
+4. Choose the database file and click "OK" to import it into SQLite Studio.
+
+Running the Crime Analysis Application:
+
+1. Navigate to the "Crime In Chicago/GUI" folder containing the application files.
+
+2. Run the main.py file using the following command:
+
+   python main.py
+
+User Flow:
+
+1. Upon running the main.py file, the Crime Analysis Application GUI will open.
+
+2. You will be welcomed with the message "Welcome to Chart Analysis For Crime in Chicago."
+
+3. You can choose either the "Register" or "Login" button to proceed.
+
+4. If you are a new user, click "Register" to create an account. Enter your desired details, then click "Register."
+
+5. If you are an existing user, click "Login" and enter your credentials (email and password) to access the application.
+
+Generating Charts:
+
+1. After logging in, you will be directed to the Charts window.
+
+2. Select the type of graph you want to generate from the "Select Graph" dropdown.
+
+3. Choose the data category for the graph from the "Select Data" dropdown.
+
+4. Click "Generate Chart" to create the selected chart based on your chosen data category.
+
+5. The chart will be displayed in a separate window with appropriate labels and data representation.
+
+6. To analyze different data or generate different charts, repeat steps 2 to 4 with your desired graph and data category.
+
